@@ -1,0 +1,315 @@
+
+* {
+    Margin: 0;
+    Padding:0;
+    Box-sizing:border-box;
+    
+    }
+    @import url(//db.onlinewebfonts.com/c/23c0fcab84d99da0de762de7e220a6e1?family=Europa);
+    A {
+    Text-decoration: none;
+    Color: inherit;
+    }
+    li {
+        list-style: none;
+    }
+    ul {
+        padding-left: 0;
+    }
+body {
+    background: white;
+    height: 100%;
+    font-family: url(//db.onlinewebfonts.com/c/23c0fcab84d99da0de762de7e220a6e1?family=Europa);
+}
+
+.block {
+    height: 100%;
+    width : 100%;
+
+}
+    .entete {
+        background: white;
+        /* background: #313131; */
+        color: #141C3A;
+        height: 900px;
+        border-radius: 5px;
+        width: 100%;
+        
+        
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width : 100%;
+        height: auto;
+        position: fixed;
+        background: white;
+        color: #7510f6;
+    }
+    .logotopleft {
+        width: 55px;
+        margin : 10px 50px;
+        border-radius: 5px;
+    }
+    
+    .topright {
+        display: flex;
+        justify-content: space-between;
+        width : 800px;
+        margin-right : 50px;
+        font-size: larger;
+        margin-top: 19px;
+       
+    }
+
+    .home {
+        
+        justify-content: center;
+       padding-top: 200px;
+        
+    }
+    .home h1 {
+        font-size:49px;
+        line-height:54px;
+vertical-align:
+baseline;
+letter-spacing:
+normal;
+word-spacing:
+0px;
+margin:
+0px 0px 24px;
+padding:
+0px;
+
+
+font-weight: 400;
+font-style:
+normal;
+font-variant:
+normal;
+text-transform:
+none;
+text-decoration:
+none solid rgb(20, 28, 58);
+text-align:
+center;
+text-indent:
+0px;
+    }
+    
+    .img-ordi {
+        margin-top: 77px;
+    }
+
+    .blockslider img {
+        height: 18vh;
+        width : 18vh;
+        border-radius: 20px;
+        margin : 7vh;
+        padding : 10px;
+        }
+        .blockslider {
+            display: flex;
+            padding-top: 100px;
+            margin-top: 47px;
+            width: 100%;
+            height: 640px;
+            justify-content: center;
+            background-color: #7510f6;
+            color:white ;
+            font-size: large;
+            text-align: center;
+        }
+        .presentation {
+            width: 700px;
+        }
+
+.skill {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.bloc-skill {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+    
+    
+}
+    .design {
+        height: 500px;
+        width: 350px;
+        background-color: white;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: lightgray solid 1px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+        text-align: center;
+       
+    }
+        .logo-designer {
+            width: 70px;
+            padding-top: 30px;
+        }
+        .logo-backend {
+            width: 70px;
+            padding-top: 32px;
+            height: 98px;
+
+        }
+        .txt-bloc {
+            margin: 0 10%;
+        }
+.front-end {
+    height: 500px;
+        width: 350px;
+        background-color: white;
+        border: lightgray solid 1px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+        text-align: center;
+}
+.back-end {
+    height: 500px;
+        width: 350px;
+        background-color: white;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: lightgray solid 1px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+        text-align: center;
+}
+
+/* BLOC PORTFOLIO */
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    margin-top: 150px;
+}
+.bloc-portfolio{
+    width: 50%;
+    align-self: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-content: space-around;
+    height: 607px;
+}
+.bloc-portfolio img {
+width: 241px;
+}
+
+/* Canvas */
+canvas {
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  .canvas {
+      
+  }
+
+    /* RESPONSIVE */
+
+@media screen and (max-width :680px) {
+    .body {
+        
+    }
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 0;
+        
+    }
+    .home img {
+width: 100px;
+height: 100px;
+margin-left: auto;
+margin-right: auto;
+    }
+
+.entete {
+    margin:0;
+    align-items: center;
+    
+}
+.topright {
+    font-size : medium;
+    width: 100%;
+    
+}
+.logotopleft {
+    display: none;
+}
+.block {
+    height: 50%;
+}
+
+
+.blockslider {
+    padding-left: auto;
+    padding-right: auto;
+}
+}
+
+/* JAVA PIERRE FEUILLE CISEAUX */
+.pfc {
+    width: 500px;
+    height: 200px;
+margin : 200px;
+
+}
+.pfc img {
+    width : 40px;
+    height: 40px;
+}
+.pierre {
+    width: 30px;
+    height: 20px;
+}
+.resultat {
+    width : 200px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+/* 
+
+123 SOLEIL
+
+LONGUEUR  = 5 étapes
+POUPEE a 1/3 chances de se retourner à chaque ETAPE
+SI la POUPÉE se retourne ET QUE le JOUEUR n'est pas immobile 
+ALORS le JOUEUR meurt 
+SINON le joueur avance d'une ETAPE 
+
+SI le JOUEUR meurt ALORS 
+le jeu se reinitialise 
+ SINON il gagne le droit de me recruter 
+
+
+const parcours = ["un", "deux", "trois", "quatre", "cinq"]
+
+*/
